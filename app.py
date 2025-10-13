@@ -3,7 +3,7 @@ import requests
 import json
 
 # --- CONFIGURACIÓN ---
-N8N_WEBHOOK_URL = "https://aldosanchez.app.n8n.cloud/webhook-test/exam-auto-grader"
+N8N_WEBHOOK_URL = "https://mari25.app.n8n.cloud/webhook-test/exam-auto-grader"
 
 st.set_page_config(page_title="AutoGrader", page_icon="✅", layout="centered")
 
