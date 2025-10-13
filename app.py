@@ -13,7 +13,7 @@ if imagen:
 
     if st.button("Enviar a evaluación"):
         response = requests.post(
-            "https://TU_N8N/webhook/submit-exam",  # Reemplaza con tu URL real
+            "https://mari25.app.n8n.cloud/webhook-test/submit-exam",  # Reemplaza con tu URL real
             json={"image_base64": imagen_b64}
         )
 
