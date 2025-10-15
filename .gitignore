@@ -1,0 +1,5 @@
+# Ignorar entorno virtual y archivos temporales
+.venv/
+__pycache__/
+*.pyc
+results.db
